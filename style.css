@@ -1,0 +1,35 @@
+h1{
+	color: white;
+}
+
+h2{ background-color: white;
+	text-align: center;
+}
+
+h3{ color: white;
+	background-color: black;
+	text-align: center;
+}
+
+li{
+	color: white;
+
+}
+
+
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img{
+	width:450px;
+	height:300px;
+	margin:10px;
+	transition:all 1s;
+}
+img:hover {
+	transform: scale(1.1);
+}
